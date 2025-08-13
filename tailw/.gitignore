@@ -1,0 +1,18 @@
+# zależności
+node_modules/
+
+# buildy (dostosuj do swojego)
+dist/
+build/
+.cache/
+.tmp/
+
+# mapy i cache
+*.map
+
+# system/edytor
+.DS_Store
+.vscode/
+
+# środowisko
+.env

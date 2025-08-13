@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@latest/build/spline-viewer.js"></script>
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+  <body class="bg-gray-900 text-amber-50 m-0 h-full">
+    <header class="flex justify-between items-center py-4 px-4 lg:px-20">
+        <h1 class="text-3xl md:text-3xl lg:text-5x1 font-light m-0 text-amber-50">Tenis Arena Bydgoszcz</h1>
+        <nav class="hidden md:flex items-center gap-12">
+        <a class="text-gray-400 tracking-wider transition-colors hover:text-gray-500 z-50">AKTUALNOŚCI</a>
+        <a class="text-gray-400 tracking-wider transition-colors hover:text-gray-500 z-50">CENNIK</a>
+        <a class="text-gray-400 tracking-wider transition-colors hover:text-gray-500 z-50">REZERWACJA</a>
+    </nav>
+        <button class="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
+            Login
+        </button>
+    </header>
+    
+    <main class="flex lg:mt-20 flex-col lg:flex-row justify-between items-center min-h-[calc(90vh-6rem)]">
+        <div class="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+            <!-- <div class="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#656565] to -[#e99b63] shadow-[0_0_15px_rgba(255, 255, 255, 0.4)] rounded-full">
+                <div class="absolute inset-[3px] bg-black rounded-full flex items-center justify-center">
+                    Tenis Arena Bydgoszcz
+                </div>
+            </div> -->
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wider my-8 text-center">Witamy!</h1>
+            <p class="text-base sm:text-lg tracking-wider text-gray-400 max-w-[25rem] lg:max-w-[30rem] text-center">
+                Tenis Arena Bydgoszcz to nowoczesny obiekt tenisowy, który powstał z myślą o wszystkich miłośnikach tenisa.
+Serdecznie zapraszamy na nasze ceglane korty. Mamy ich 6.
+W sezonie zimowym 3 pod balonem. Każdy kort ma światło.
+W dyspozycję oddajemy szatnie z prysznicami, a na kawę
+zapraszamy do salki klubowej z recepcją.
+
+            </p>
+        </div>
+        <img class="absolute top-0 right-0 opacity-60 -z-1" src="../public/gradient.png" alt="Gradient-img" srcset="">
+        <div class="h-0 w-[40rem] absolute top-[20%] right-[5%] shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10"></div>
+        <spline-viewer url="https://prod.spline.design/7GMT4ursijrgrned/scene.splinecode"></spline-viewer>
+    </main>
+  </body>
+</html>
